@@ -3,4 +3,7 @@
 @font-face {
     font-family: 'UnidreamLED';
     src: url('https://npm.elemecdn.com/blog-zzwtsy/fonts/UnidreamLED.woff') format('woff');
+    font-display: swap;
+    font-family: '"qweather-icons';
+    src: url('https://npm.elemecdn.com/blog-zzwtsy/fonts/qweather-icons.woff2') format('woff2');
 }
