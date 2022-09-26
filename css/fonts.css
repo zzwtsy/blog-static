@@ -1,1 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans+SC:wght@500;700&family=Noto+Sans+TC:wght@500;700&display=swap);
+
+@font-face {
+    font-family: 'UnidreamLED';
+    src: url('https://npm.elemecdn.com/blog-zzwtsy/fonts/UnidreamLED.woff') format('woff');
+}
