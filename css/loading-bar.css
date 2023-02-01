@@ -197,7 +197,6 @@
 }
 
 [data-theme="dark"] .pace .pace-progress{
-	background: #22303f;
 	color: #fff;
 	-webkit-box-shadow: 120px 0 #22303f, 240px 0 #22303f;
 	-ms-box-shadow: 120px 0 #22303f, 240px 0 #22303f;
