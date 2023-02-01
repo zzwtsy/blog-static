@@ -197,13 +197,10 @@
 }
 
 [data-theme="dark"] .pace .pace-progress{
-	background: #22303f;
-	color: #fff;
-	-webkit-box-shadow: 120px 0 #212f3e, 240px 0 #212f3e;
-	-ms-box-shadow: 120px 0 #212f3e, 240px 0 #212f3e;
-	box-shadow: 120px 0 #212f3e, 240px 0 #212f3e;
+	background: #212f3e !important;
+	color: #212f3e !important;
 }
 
 [data-theme="dark"] .pace .pace-activity {
-	box-shadow: inset 0 0 0 2px #212f3e, inset 0 0 0 7px #212f3e;
+	box-shadow: inset 0 0 0 2px #212f3e, inset 0 0 0 7px #FFF !important;
 }
