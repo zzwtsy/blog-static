@@ -1,9 +1,9 @@
-#page-header,
+/* #page-header,
 #page-header:before {
     background-color: transparent !important
 }
 
-#footer:before {
+#footer::before {
     background-color: rgba(255, 255, 255, .15) !important
 }
 
@@ -11,17 +11,51 @@ header#page-header {
     background-image: none !important
 }
 
-header #page-header:before {
+header #page-header::before {
+    background-color: transparent;
+} */
+
+#web_bg::before,
+#footer::before,
+#page-header::before {
     background-color: transparent;
 }
 
-[data-theme='dark'] #web_bg:before,
-[data-theme='dark'] #footer:before,
-[data-theme='dark'] #page-header:before {
-    background-color: transparent !important;
+/* 浅色模式 */
+
+[data-theme='light']#web_bg{
+    background: #e2e2e2;
 }
 
+/* 页眉 */
 [data-theme='dark'] #page-header.nav-fixed>#nav,
 [data-theme='dark'] #page-header.not-top-img>#nav {
+    background: #fff;
+}
+
+[data-theme=light] #footer {
+    background: #fff;
+}
+
+/* 深色模式 */
+[data-theme='dark'] #web_bg {
+    background: "#22303f";
+}
+
+/* [data-theme='dark'] #web_bg::before,
+[data-theme='dark'] #footer::before,
+[data-theme='dark'] #page-header::before {
+    background-color: transparent;
+} */
+
+/* 页眉 */
+[data-theme='dark'] #page-header.nav-fixed>#nav,
+[data-theme='dark'] #page-header.not-top-img>#nav {
+    background: #18222d;
+}
+
+/* 页脚 */
+
+[data-theme=dark] #footer {
     background: #18222d;
 }
