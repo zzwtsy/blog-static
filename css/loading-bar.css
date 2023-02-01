@@ -197,20 +197,13 @@
 }
 
 [data-theme="dark"] .pace .pace-progress{
+	background: #22303f;
 	color: #fff;
-	-webkit-box-shadow: 120px 0 #22303f, 240px 0 #22303f;
-	-ms-box-shadow: 120px 0 #22303f, 240px 0 #22303f;
-	box-shadow: 120px 0 #22303f, 240px 0 #22303f;
+	-webkit-box-shadow: 120px 0 #212f3e, 240px 0 #212f3e;
+	-ms-box-shadow: 120px 0 #212f3e, 240px 0 #212f3e;
+	box-shadow: 120px 0 #212f3e, 240px 0 #212f3e;
 }
 
 [data-theme="dark"] .pace .pace-activity {
-	box-shadow: inset 0 0 0 2px #22303f, inset 0 0 0 7px #22303f;
-}
-
-[data-theme="dark"] .pace::before {
-	content: '';
-	width: 100%;
-	height: 100%;
-	z-index: 1999;
-	background: #212f3e;
+	box-shadow: inset 0 0 0 2px #212f3e, inset 0 0 0 7px #212f3e;
 }
