@@ -1,7 +1,7 @@
 [data-theme=light] #footer {
-    background: #dcdcdc
+    background: #dcdcdc;
 }
 
 [data-theme=dark] #footer {
-    background: #18222d
+    background: #18222d !important;
 }
