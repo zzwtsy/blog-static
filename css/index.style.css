@@ -17,6 +17,11 @@ header #page-header:before {
 
 [data-theme='dark'] #web_bg:before,
 [data-theme='dark'] #footer:before,
-[data-theme='dark'] #page-header:before{
+[data-theme='dark'] #page-header:before {
     background-color: transparent !important;
+}
+
+[data-theme='dark'] #page-header.nav-fixed>#nav,
+[data-theme='dark'] #page-header.not-top-img>#nav {
+    background: #18222d;
 }
