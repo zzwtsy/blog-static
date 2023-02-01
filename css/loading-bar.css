@@ -208,6 +208,10 @@
 	box-shadow: inset 0 0 0 2px #22303f, inset 0 0 0 7px #22303f;
 }
 
-[data-theme="dark"] .pace {
+[data-theme="dark"] .pace::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	z-index: 1999;
 	background: #212f3e;
 }
