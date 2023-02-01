@@ -198,8 +198,12 @@
 
 [data-theme="dark"] .pace .pace-progress{
 	background: #22303f;
-	color: #22303f;
+	color: #fff;
 	-webkit-box-shadow: 120px 0 #fff, 240px 0 #fff;
 	-ms-box-shadow: 120px 0 #fff, 240px 0 #fff;
 	box-shadow: 120px 0 #fff, 240px 0 #fff;
+}
+
+[data-theme="dark"] .pace .pace-activity {
+	box-shadow: inset 0 0 0 2px #22303f, inset 0 0 0 7px #FFF;
 }
