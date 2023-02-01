@@ -196,8 +196,7 @@
 	display: none;
 }
 
-
-[data-mode = "dark"] .pace .pace-progress{
+[data-theme="dark"] .pace .pace-progress{
 	background: #22303f;
 	color: #22303f;
 	-webkit-box-shadow: 120px 0 #fff, 240px 0 #fff;
