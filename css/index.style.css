@@ -45,3 +45,11 @@
 [data-theme="dark"] #footer {
     background: #18222d !important;
 }
+
+[data-theme="dark"] #footer-wrap a {
+    color: gray;
+}
+
+[data-theme="dark"] #footer-wrap {
+    color: #6b7788;
+}
