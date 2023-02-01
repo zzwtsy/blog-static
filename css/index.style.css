@@ -4,6 +4,15 @@
     background-color: transparent !important;
 }
 
+#aside-content .card-widget,
+#recent-posts>.recent-post-item,
+.cardHover,
+.error404 #error-wrap .error-content,
+.layout>.recent-posts .pagination>:not(.space),
+.layout>div:first-child:not(.recent-posts) {
+    box-shadow: none;
+}
+
 /* 浅色模式 */
 
 [data-theme="light"] #web_bg {
@@ -27,6 +36,15 @@
 
 [data-theme="light"] #footer-wrap {
     color: gray;
+}
+
+[data-theme="light"] #pagination.pagination-post {
+    background: #ccc !important;
+}
+
+/* 相关推荐 */
+[data-theme="light"] .relatedPosts>.relatedPosts-list>div {
+    background: #ccc !important;
 }
 
 /* 深色模式 */
@@ -54,11 +72,11 @@
     color: #6b7788;
 }
 
-#aside-content .card-widget,
-#recent-posts>.recent-post-item,
-.cardHover,
-.error404 #error-wrap .error-content,
-.layout>.recent-posts .pagination>:not(.space),
-.layout>div:first-child:not(.recent-posts) {
-    box-shadow: none;
+[data-theme="dark"] #pagination.pagination-post {
+    background: #212f3e !important;
+}
+
+/* 相关推荐 */
+[data-theme="dark"] .relatedPosts>.relatedPosts-list>div {
+    background: #212f3e !important;
 }
