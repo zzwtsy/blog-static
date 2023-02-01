@@ -23,8 +23,8 @@ header #page-header::before {
 
 /* 浅色模式 */
 
-[data-theme='light']#web_bg{
-    background: #e2e2e2;
+[data-theme='light']#web_bg {
+    background: #e2e2e2 !important;
 }
 
 /* 页眉 */
@@ -33,13 +33,22 @@ header #page-header::before {
     background: #fff;
 }
 
+/* 页脚 */
 [data-theme=light] #footer {
-    background: #fff;
+    background: #fff !important;
+}
+
+[data-theme=light]#footer-wrap a {
+    color: #ccc;
+}
+
+[data-theme=light]#footer-wrap{
+    color: gray;
 }
 
 /* 深色模式 */
 [data-theme='dark'] #web_bg {
-    background: "#22303f";
+    background: "#22303f" !important;
 }
 
 /* [data-theme='dark'] #web_bg::before,
@@ -57,5 +66,5 @@ header #page-header::before {
 /* 页脚 */
 
 [data-theme=dark] #footer {
-    background: #18222d;
+    background: #18222d !important;
 }
